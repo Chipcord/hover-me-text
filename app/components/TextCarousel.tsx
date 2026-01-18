@@ -58,7 +58,7 @@ export function TextCarousel({ text }: { text: string }) {
 
   return (
     <span
-      className="relative inline-block overflow-hidden align-bottom"
+      className="relative inline-block overflow-hidden align-bottom cursor-pointer"
       style={{ width: textWidth || "auto" }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}

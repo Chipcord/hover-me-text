@@ -64,7 +64,7 @@ export function TextSplit({ text, className = "" }: TextSplitProps) {
   return (
     <span className="relative inline-block overflow-hidden">
       <motion.span
-        className={`relative inline-block ${className}`}
+        className={`relative inline-block ${className} cursor-pointer`}
         variants={parent}
         initial="initial"
         animate={hovered ? "hover" : "initial"}
