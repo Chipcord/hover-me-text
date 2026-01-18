@@ -10,7 +10,7 @@ type TextSplitProps = {
 
 const STAGGER = 0.03;
 const DURATION = 0.6;
-const EASE = [0.68, -0.6, 0.32, 1.6];
+const EASE = [0.68, -0.6, 0.32, 1.6] as const;
 
 export function TextSplit({ text, className = "" }: TextSplitProps) {
   const chars = useMemo(() => text.split(""), [text]);
