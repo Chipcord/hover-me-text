@@ -2,6 +2,7 @@ import Link from "next/link";
 import { TextCarousel } from "./components/TextCarousel";
 import { TextSplit } from "./components/TextSplit";
 import { TextSquish } from "./components/TextSquish";
+import { TextBold } from "./components/TextBold";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <TextCarousel text="hover me" />
       <TextSplit text="hover me" />
       <TextSquish text="hover me" />
+      <TextBold text="hover me" />
     </main>
   );
 }
